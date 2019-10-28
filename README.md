@@ -1,8 +1,8 @@
 ## Wireframe Diagram
-(./react_film_releases_wireframe.png)
+![Wireframe Diagram](https://raw.githubusercontent.com/josephcooper3/film-releases-app/master/react_film_releases_wireframe.png)
 
 ## Component Diagram
-(./react_film_releases_component_hierarchy.png)
+![Component Diagram](https://raw.githubusercontent.com/josephcooper3/film-releases-app/master/react_film_releases_component_hierarchy.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
