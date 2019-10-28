@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ReleasesList from "../components/ReleasesList";
 
 class ReleasesBox extends Component {
@@ -24,7 +24,7 @@ class ReleasesBox extends Component {
         },
         {
           id: 4,
-          name: "After The Wedding", 
+          name: "After The Wedding",
           url: "https://www.imdb.com/title/tt7985692/?ref_=rlm"
         },
         {
@@ -39,8 +39,19 @@ class ReleasesBox extends Component {
   render() {
     return (
       <div className="releases-box">
-        <h1>Releases Box</h1>
-        <ReleasesList data={this.state.data}/>
+        <table>
+          <thead><tr><th>Upcoming Film Releases for UK</th></tr></thead>
+          <tbody>
+            <tr>
+              <ReleasesList data={this.state.data} />
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases > ></a></td>
+            </tr>
+          </tfoot>
+        </table>
       </div>
     )
   }
