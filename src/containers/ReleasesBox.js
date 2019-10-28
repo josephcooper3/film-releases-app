@@ -5,7 +5,10 @@ class ReleasesBox extends Component {
 
   render() {
     return (
-      <h1>Releases Box</h1>
+      <div className="releases-box">
+        <h1>Releases Box</h1>
+        <ReleasesList/>
+      </div>
     )
   }
 

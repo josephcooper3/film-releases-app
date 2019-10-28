@@ -4,7 +4,7 @@ class Release extends Component {
 
   render() {
     return (
-      <h3>Releas</h3>
+      <h3>Release</h3>
     )
   }
 

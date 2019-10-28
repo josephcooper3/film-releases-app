@@ -5,7 +5,10 @@ class ReleasesList extends Component {
 
   render() {
     return (
-      <h2>Releases List</h2>
+      <div className="releases-list">
+        <h2>Releases List</h2>
+        <Release/>
+      </div>
     )
   }
 
