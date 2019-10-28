@@ -6,13 +6,15 @@ class ReleasesList extends Component {
   render() {
 
     const releaseNodes = this.props.data.map(release => {
-      return <Release name={release.name} url={release.url} key={release.id}></Release>
+      return <li><Release name={release.name} url={release.url} key={release.id}></Release></li>
     })
 
     return (
       <div className="releases-list">
         <h2>Releases List</h2>
+        <ul>
         {releaseNodes}
+        </ul>
       </div>
     )
   }
